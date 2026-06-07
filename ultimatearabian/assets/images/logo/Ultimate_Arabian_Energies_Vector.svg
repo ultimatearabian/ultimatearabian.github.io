@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8d76b"/>
+      <stop offset="100%" stop-color="#c89211"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6cc04a"/>
+      <stop offset="100%" stop-color="#0b7a3b"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#bfc5cc"/>
+      <stop offset="100%" stop-color="#f2f4f7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Crescent -->
+  <path d="M190 35
+           A115 115 0 1 0 190 265
+           A88 88 0 1 1 190 35 Z"
+        fill="url(#gold)"/>
+
+  <!-- Star -->
+  <polygon points="255,55 265,82 294,82 271,99 280,126 255,109 230,126 239,99 216,82 245,82"
+           fill="url(#gold)"/>
+
+  <!-- Waves -->
+  <path d="M105 115 C145 80, 220 95, 285 100 C245 130, 175 130, 120 145 Z"
+        fill="url(#silver)"/>
+  <path d="M110 145 C155 120, 235 130, 295 125 C255 160, 180 170, 125 180 Z"
+        fill="#9ad84b"/>
+  <path d="M115 170 C165 145, 240 155, 300 150 C260 190, 185 205, 130 210 Z"
+        fill="url(#green)"/>
+
+  <!-- Text -->
+  <text x="380" y="125" font-family="Arial, Helvetica, sans-serif"
+        font-size="92" font-weight="700" fill="#e8e8e8">ULTIMATE</text>
+
+  <text x="470" y="210" font-family="Arial, Helvetica, sans-serif"
+        font-size="78" font-weight="700" fill="url(#gold)">ARABIAN</text>
+
+  <text x="520" y="270" font-family="Arial, Helvetica, sans-serif"
+        font-size="48" font-weight="700" fill="url(#green)" letter-spacing="6">ENERGIES</text>
+</svg>
